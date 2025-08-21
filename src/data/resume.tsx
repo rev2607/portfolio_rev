@@ -8,7 +8,7 @@ export const DATA = {
   location: "Hyderabad, IN",
   locationLink: "https://www.google.com/maps/place/Hyderabad",
   description:
-    "AI/ML Engineer focused on building intelligent systems from concept to deployment.",
+    "AI/ML Engineer | Deploying Intelligent Models with Web Interfaces & Cloud Scalability",
   summary: `I’m an AI/ML Engineer focused on building intelligent systems from concept to deployment. I combine machine learning, LLMs, and responsible AI with the ability to deploy models, build web interfaces, and scale solutions on cloud platforms.
 
 Passionate about AI that delivers real-world impact, I create systems that are scalable, user-friendly, and production-ready. Always exploring new AI technologies and cloud-native architectures to push the boundaries of intelligent solutions.`,
@@ -82,7 +82,7 @@ Passionate about AI that delivers real-world impact, I create systems that are s
         name: "Kaggle",
         url: "https://www.kaggle.com/revanth7777",
         icon: Icons.kaggle,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -212,11 +212,31 @@ Passionate about AI that delivers real-world impact, I create systems that are s
       name: "Cloud Digital Leader",
       issuer: "Google Cloud",
       date: "Feb. 2024",
+      href: "https://www.credential.net/dba7a5c0-0c8b-4add-93e0-db3fa750c6bc#acc.GhX905u4",
     },
     {
       name: "AI Engineer Associate",
       issuer: "Microsoft Azure",
       date: "May. 2024",
+      href: "https://learn.microsoft.com/en-gb/users/revanthguthula-6304/credentials/7038b09a15f7c432?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+    },
+    {
+      name: "Azure Data Scientist Associate",
+      issuer: "Microsoft Azure",
+      date: "May. 2024",
+      href: "https://learn.microsoft.com/en-gb/users/revanthguthula-6304/credentials/3a7901dccd5012e?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+    },
+    {
+      name: "Advanced Automation Certification",
+      issuer: "Automation Anywhere",
+      date: "Sep. 2024",
+      href: "https://certificates.automationanywhere.com/f1906a03-0b7b-4ea8-b890-5cb142954d76#acc.vUDYr1VM",
+    },
+    {
+      name: "Blockchain Fundamentals",
+      issuer: "Chainlink Labs",
+      date: "Jan. 2025",
+      href: "https://www.credly.com/badges/336da4d0-0aae-44a1-abc6-8b5ea00004c2/linked_in_profile",
     },
   ],
   researchPublications: [

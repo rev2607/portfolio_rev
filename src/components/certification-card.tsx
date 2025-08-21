@@ -1,23 +1,34 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from "next/link";
 
 interface CertificationCardProps {
   name: string;
   issuer: string;
   date: string;
+  href?: string;
 }
 
 export function CertificationCard({
   name,
   issuer,
   date,
+  href,
 }: CertificationCardProps) {
   return (
     <Card className="w-full">
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between">
           <div className="space-y-1">
-            <CardTitle className="text-base font-semibold">{name}</CardTitle>
+            <CardTitle className="text-base font-semibold">
+              {href ? (
+                <Link href={href} target="_blank" className="hover:underline">
+                  {name}
+                </Link>
+              ) : (
+                name
+              )}
+            </CardTitle>
             <p className="text-sm text-muted-foreground">{issuer}</p>
           </div>
           <Badge variant="secondary" className="text-xs">
