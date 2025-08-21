@@ -52,6 +52,7 @@ Passionate about AI that delivers real-world impact, I create systems that are s
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/revanth_resume.pdf", icon: Icons.resume as any, label: "Resume" },
   ],
   contact: {
     email: "revanth2607@gmail.com",
