@@ -73,7 +73,7 @@ Passionate about AI that delivers real-world impact, I create systems that are s
       },
       X: {
         name: "X",
-        url: "https://x.com/revv_vxx",
+        url: "https://x.com/revvvanth",
         icon: Icons.x,
 
         navbar: true,
