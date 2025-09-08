@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Hyderabad",
   description:
     "Software Development Engineer | Building Scalable, Distributed Systems with Cloud-Native Architecture",
-  summary: `Software Development Engineer skilled in Java, Python, and C++, with strong knowledge of data structures, algorithms, and object-oriented design. Experienced in building scalable, distributed, and fault-tolerant systems, cloud computing (AWS, GCP, Azure), and agile software development. Passionate about solving complex problems and delivering high-quality, cost-efficient solutions at scale.`,
+  summary: `Final-year B.Tech student in AI & Data Science with strong skills in C++, Python, and system design. Passionate about scalable software development and applying AI/ML to solve real-world problems.`,
   avatarUrl: "/profile.jpg",
   skills: [
     "C++",
@@ -83,13 +83,13 @@ export const DATA = {
       company: "Ghar Ka Khana",
       href: "#",
       badges: [],
-      location: "Mumbai (Remote)",
-      title: "IT Software Developer",
+      location: "Mumbai",
+      title: "Software Developer Intern",
       logoUrl: "/gharkakhana.png",
       start: "Jul 2025",
       end: "Present",
       description:
-        "Developed a full‑stack restaurant ordering platform using Next.js 15 and React 19 with TypeScript, implementing modern SSR patterns, API routes, and a component‑based architecture for maintainability. Built authentication with Supabase and Twilio SMS verification, and a polished responsive UI using Tailwind CSS and Radix UI. Deployed on Vercel for performance and global availability. Tech: Next.js 15, React 19, TypeScript, Tailwind CSS, Supabase, Twilio, Radix UI, Vercel, React Hook Form, Zod.",
+        "Designed and implemented a distributed, fault‑tolerant web application for restaurant ordering using Next.js and Supabase — ensuring high availability and scalability for thousands of concurrent users. Optimized API performance and database queries, reducing response time by 30%+ under heavy load. Built authentication and secure API layers with Supabase & Twilio, ensuring data integrity and seamless user experience. Tech: HTML, CSS, TypeScript, Next.js, React, Supabase, Twilio, AWS, Docker.",
     },
   ],
   education: [
