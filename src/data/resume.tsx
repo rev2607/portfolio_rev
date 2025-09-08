@@ -95,7 +95,6 @@ export const DATA = {
   education: [
     {
       school: "KL University Hyderabad",
-      href: "https://kluniversity.in",
       degree: "B.Tech in Artificial Intelligence and Data Science • CGPA: 7.76/10",
       logoUrl: "/KL.png",
       start: "Aug 2022",
@@ -126,7 +125,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "#",
+          href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -151,7 +150,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "#",
+          href: "https://github.com/rev2607/redis-x",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -181,7 +180,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "#",
+          href: "https://github.com/rev2607/datapulse",
           icon: <Icons.github className="size-3" />,
         },
       ],
