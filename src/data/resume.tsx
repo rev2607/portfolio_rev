@@ -100,6 +100,8 @@ export const DATA = {
       logoUrl: "/KL.png",
       start: "Aug 2022",
       end: "May 2026 (Expected)",
+      description:
+        "Coursework: Data Structures & Algorithms, Operating Systems, Computer Networks, Database Management Systems, Distributed Systems, Cloud Computing, Machine Learning, Deep Learning, Data Science, Software Engineering",
     },
   ],
   projects: [
