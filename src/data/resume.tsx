@@ -8,7 +8,7 @@ export const DATA = {
   location: "Hyderabad, IN",
   locationLink: "https://www.google.com/maps/place/Hyderabad",
   description:
-    "Software Development Engineer | Building Scalable, Distributed Systems with Cloud-Native Architecture",
+    "AI Software Engineer | Specializing in AI/ML, LLMs, and Advanced Algorithms",
   summary: `Final-year B.Tech student in AI & Data Science with strong skills in C++, Python, and system design. Passionate about scalable software development and applying AI/ML to solve real-world problems.`,
   avatarUrl: "/profile.jpg",
   skills: [
