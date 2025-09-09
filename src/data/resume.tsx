@@ -106,7 +106,7 @@ export const DATA = {
   projects: [
     {
       title: "Mini RAG Q&A Bot with LangChain and OpenAI",
-      href: "#",
+      href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
       dates: "2024",
       active: true,
       description:
@@ -134,7 +134,7 @@ export const DATA = {
     },
     {
       title: "Redis‑K — Redis‑like In‑Memory Database",
-      href: "#",
+      href: "https://github.com/rev2607/redis-x",
       dates: "2024",
       active: true,
       description:
@@ -159,7 +159,7 @@ export const DATA = {
     },
     {
       title: "DataPulse — Scalable Data Health Monitoring System",
-      href: "#",
+      href: "https://github.com/rev2607/datapulse",
       dates: "2024",
       active: true,
       description:
