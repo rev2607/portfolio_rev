@@ -8,7 +8,7 @@ export const DATA = {
   location: "Hyderabad, IN",
   locationLink: "https://www.google.com/maps/place/Hyderabad",
   description:
-    "Aspiring Full Stack Developer",
+    "Aspiring Full Stack Developer | Final Year Artificial Intelligence & Data Science Student",
   summary: `Full Stack Developer and Final-year B.Tech student in Artificial Intelligence & Data Science. Skilled in building scalable, production-ready web applications using React, Next.js, Node.js, Express, and PostgreSQL. Experienced in REST APIs, authentication, database design, and cloud deployment. Strong foundations in C++, Python, and System design.`,
   avatarUrl: "/profile.jpg",
   skills: [
