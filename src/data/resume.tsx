@@ -150,6 +150,32 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "Mini RAG Q&A Bot with LangChain and OpenAI",
+      href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
+      dates: "2024",
+      active: true,
+      description:
+        "Built an end-to-end retrieval-augmented generation system for private datasets, delivering context-aware answers with low latency. Implemented text chunking, embeddings, vector search, and evaluation tooling for observability.",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "OpenAI API",
+        "ChromaDB",
+        "Vector Search",
+        "Docker",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   certifications: [
     {
@@ -163,6 +189,24 @@ export const DATA = {
       issuer: "Microsoft Azure",
       date: "2024",
       href: "https://learn.microsoft.com/en-gb/users/revanthguthula-6304/credentials/7038b09a15f7c432?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+    },
+    {
+      name: "Azure Data Scientist Associate",
+      issuer: "Microsoft Azure",
+      date: "2024",
+      href: "https://learn.microsoft.com/en-gb/users/revanthguthula-6304/credentials/3a7901dccd5012e?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+    },
+    {
+      name: "Advanced Automation Certification",
+      issuer: "Automation Anywhere",
+      date: "2024",
+      href: "https://certificates.automationanywhere.com/f1906a03-0b7b-4ea8-b890-5cb142954d76#acc.vUDYr1VM",
+    },
+    {
+      name: "Blockchain Fundamentals",
+      issuer: "Chainlink Labs",
+      date: "2025",
+      href: "https://www.credly.com/badges/336da4d0-0aae-44a1-abc6-8b5ea00004c2/linked_in_profile",
     },
   ],
   researchPublications: [
