@@ -8,49 +8,36 @@ export const DATA = {
   location: "Hyderabad, IN",
   locationLink: "https://www.google.com/maps/place/Hyderabad",
   description:
-    "Aspiring Full Stack Developer | Final Year Artificial Intelligence & Data Science Student",
-  summary: `Full Stack Developer and Final-year B.Tech student in Artificial Intelligence & Data Science. Skilled in building scalable, production-ready web applications using React, Next.js, Node.js, Express, and PostgreSQL. Experienced in REST APIs, authentication, database design, and cloud deployment. Strong foundations in C++, Python, and System design.`,
+    "Software Developer | Full-stack & Mobile | React, React Native, FastAPI, Swift",
+  summary: `Software Developer with hands-on experience in full-stack and mobile app development, passionate about building high-quality products and solving real problems through technology. Focused on writing clean, scalable code and continuously learning to improve as an engineer.`,
   avatarUrl: "/profile.jpg",
   skills: [
-    // Programming
-    "C++",
+    // Languages
     "Python",
-    "SQL",
-    // Frontend
-    "HTML",
-    "CSS",
+    "Swift",
     "JavaScript",
-    "React.js",
-    "Next.js",
-    "TailwindCSS",
-    "Responsive Design",
-    // Backend
-    "Node.js",
-    "Express.js",
+    // Frameworks
+    "React",
+    "React Native",
     "FastAPI",
-    "REST APIs",
-    "Authentication & Authorization",
-    // Databases
-    "PostgreSQL",
-    "MySQL",
-    "MongoDB",
-    "Supabase",
-    // DevOps & Cloud
-    "Linux",
+    "Django",
+    // Tools
+    "Firebase",
+    "GCP",
+    "Azure",
+    "Docker",
     "Git",
     "GitHub",
-    "Docker",
-    "AWS (EC2, S3, RDS)",
-    "GCP",
-    "Vercel",
-    "CI/CD pipelines (GitHub Actions)",
+    // APIs & Databases
+    "REST APIs",
+    "SQL",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/revanthGuthula.pdf", icon: Icons.resume as any, label: "Resume" },
   ],
   contact: {
-    email: "revanth2607@gmail.com",
+    email: "revanthgwork@gmail.com",
     tel: "+91 93467 80091",
     social: {
       GitHub: {
@@ -92,28 +79,40 @@ export const DATA = {
 
   work: [
     {
+      company: "Diyas Fin Corp",
+      href: "#",
+      badges: [],
+      location: "Hyderabad",
+      title: "App Developer · Freelance",
+      logoUrl: "/atomic.png",
+      start: "Dec 2025",
+      end: "Dec 2025",
+      description:
+        "Developed a React Native application for financial agents to manage customer loan applications, profile records, and follow-ups. Optimized the UI/UX for quick onboarding and streamlined workflows, reducing manual paperwork time by 70%.",
+    },
+    {
       company: "Ghar Ka Khana",
       href: "#",
       badges: [],
       location: "Mumbai",
-      title: "Software Developer Intern",
+      title: "Full Stack Developer · Freelance",
       logoUrl: "/gharkakhana.png",
       start: "Jul 2025",
-      end: "Present",
+      end: "Nov 2025",
       description:
-        "Designed and implemented a distributed, fault‑tolerant web application for restaurant ordering using Next.js and Supabase — ensuring high availability and scalability for thousands of concurrent users. Optimized API performance and database queries, reducing response time by 30%+ under heavy load. Built authentication and secure API layers with Supabase & Twilio, ensuring data integrity and seamless user experience. Tech: HTML, CSS, TypeScript, Next.js, React, Supabase, Twilio, AWS, Docker.",
+        "Built a cloud kitchen food ordering platform for Navi Mumbai, featuring a responsive menu system with meal plans and a multi-step checkout flow for a seamless customer experience. Implemented secure payment processing with multiple methods (UPI, Cards, Net Banking, Wallets) and webhook-based transaction verification using HMAC-SHA256 signature validation.",
     },
     {
       company: "Student Hub",
       href: "#",
       badges: [],
       location: "Hyderabad",
-      title: "Full Stack Developer Intern",
+      title: "Full Stack Intern",
       logoUrl: "/studentHub.png",
-      start: "Feb 2025",
-      end: "Jun 2025",
+      start: "Jun 2025",
+      end: "Nov 2025",
       description:
-        "Built a full‑stack mock test platform with real‑time test‑taking and automated results using Next.js, React, Supabase (PostgreSQL + Auth) and Tailwind CSS. Implemented secure authentication, role‑based access, timers and analytics dashboards to highlight weak topics. Deployed on Vercel with CI/CD, optimizing queries and frontend performance to reduce load times by ~40%. Tech: Next.js 14, TypeScript, Tailwind CSS, Supabase, React Context, Lucide, Recharts.",
+        "Built and deployed a React 19 + Vite single-page application (100+ routes) with a FastAPI gateway for unified authentication and state management. Implemented a news ingestion pipeline using FastAPI and Supabase with Perplexity integration.",
     },
   ],
   education: [
@@ -129,52 +128,22 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Mini RAG Q&A Bot with LangChain and OpenAI",
-      href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
-      dates: "2024",
+      title: "Cool Beans – iOS Caffeine & Calorie Tracker",
+      href: "https://github.com/rev2607", // TODO: replace with repo link when public
+      dates: "2025",
       active: true,
       description:
-        "Built an end‑to‑end retrieval‑augmented generation system for private datasets, delivering context‑aware answers with <500 ms latency. Implemented chunking/embeddings, vector search, and observability for evaluation.",
+        "Developed a SwiftUI iOS application enabling users to track caffeine and calorie intake across 15+ customizable beverages. Leveraged MVVM architecture with ObservableObject for reactive state management, persistent data storage, and dynamic nutritional calculations based on serving size, milk, and syrup options.",
       technologies: [
-        "Python",
-        "FastAPI",
-        "LangChain",
-        "OpenAI API",
-        "ChromaDB",
-        "HNSW",
-        "Transformers",
-        "Embeddings",
-        "Docker",
+        "Swift",
+        "SwiftUI",
+        "MVVM",
+        "iOS",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Redis‑K — Redis‑like In‑Memory Database",
-      href: "https://github.com/rev2607/redis-x",
-      dates: "2024",
-      active: true,
-      description:
-        "Designed and implemented a high‑performance, event‑driven server with a custom binary protocol; optimized concurrent I/O and implemented core data structures (hash map, set, list) with persistence.",
-      technologies: [
-        "C++",
-        "Networking",
-        "Concurrency",
-        "TCP",
-        "Binary Protocol",
-        "Data Structures",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/rev2607/redis-x",
+          href: "https://github.com/rev2607",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -184,34 +153,16 @@ export const DATA = {
   ],
   certifications: [
     {
-      name: "Cloud Digital Leader",
+      name: "Google Cloud Digital Leader",
       issuer: "Google Cloud",
-      date: "Feb. 2024",
+      date: "2024",
       href: "https://www.credential.net/dba7a5c0-0c8b-4add-93e0-db3fa750c6bc#acc.GhX905u4",
     },
     {
-      name: "AI Engineer Associate",
+      name: "Microsoft Azure AI Engineer Associate",
       issuer: "Microsoft Azure",
-      date: "May. 2024",
+      date: "2024",
       href: "https://learn.microsoft.com/en-gb/users/revanthguthula-6304/credentials/7038b09a15f7c432?ref=https%3A%2F%2Fwww.linkedin.com%2F",
-    },
-    {
-      name: "Azure Data Scientist Associate",
-      issuer: "Microsoft Azure",
-      date: "May. 2024",
-      href: "https://learn.microsoft.com/en-gb/users/revanthguthula-6304/credentials/3a7901dccd5012e?ref=https%3A%2F%2Fwww.linkedin.com%2F",
-    },
-    {
-      name: "Advanced Automation Certification",
-      issuer: "Automation Anywhere",
-      date: "Sep. 2024",
-      href: "https://certificates.automationanywhere.com/f1906a03-0b7b-4ea8-b890-5cb142954d76#acc.vUDYr1VM",
-    },
-    {
-      name: "Blockchain Fundamentals",
-      issuer: "Chainlink Labs",
-      date: "Jan. 2025",
-      href: "https://www.credly.com/badges/336da4d0-0aae-44a1-abc6-8b5ea00004c2/linked_in_profile",
     },
   ],
   researchPublications: [
