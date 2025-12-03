@@ -107,7 +107,7 @@ export const DATA = {
       href: "#",
       badges: [],
       location: "Hyderabad",
-      title: "Full Stack Intern",
+      title: "Full Stack Developer · Freelance",
       logoUrl: "/studentHub.png",
       start: "Jun 2025",
       end: "Nov 2025",
@@ -123,14 +123,14 @@ export const DATA = {
       start: "Aug 2022",
       end: "May 2026 (Expected)",
       description:
-        "Coursework: Data Structures & Algorithms, Operating Systems, Computer Networks, Database Management Systems, Distributed Systems, Cloud Computing, Machine Learning, Deep Learning, Data Science, Software Engineering",
+        "Coursework: Data Structures & Algorithms, Operating Systems, Computer Networks, Database Management Systems, Machine Learning, Deep Learning, MLOPS",
     },
   ],
   projects: [
     {
       title: "Cool Beans – iOS Caffeine & Calorie Tracker",
-      href: "https://github.com/rev2607", // TODO: replace with repo link when public
-      dates: "2025",
+      href: "https://github.com/rev2607/CoolBeans",
+      dates: "2024",
       active: true,
       description:
         "Developed a SwiftUI iOS application enabling users to track caffeine and calorie intake across 15+ customizable beverages. Leveraged MVVM architecture with ObservableObject for reactive state management, persistent data storage, and dynamic nutritional calculations based on serving size, milk, and syrup options.",
@@ -143,7 +143,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/rev2607",
+          href: "https://github.com/rev2607/CoolBeans",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -153,7 +153,7 @@ export const DATA = {
     {
       title: "Mini RAG Q&A Bot with LangChain and OpenAI",
       href: "https://github.com/rev2607/Mini-RAG-QA-Bot-with-LangChain-OpenAI",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description:
         "Built an end-to-end retrieval-augmented generation system for private datasets, delivering context-aware answers with low latency. Implemented text chunking, embeddings, vector search, and evaluation tooling for observability.",
